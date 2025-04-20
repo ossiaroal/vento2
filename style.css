@@ -7,14 +7,16 @@ body {
   padding: 0;
 }
 .site-header.hero-header {
-  background-color: #fff5e5;
-  padding: 1em 0.5em;
+  background: linear-gradient(180deg, #fffaf5 0%, #fdf6f1 100%);
+  padding: 1.5em 0;
   text-align: center;
 }
-.logo-large {
-  max-width: 80%;
+.logo-clean {
+  max-width: 60%;
   height: auto;
-  margin-top: 0.5em;
+  margin: 0 auto;
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.05));
 }
 .hero {
   text-align: center;
@@ -56,4 +58,21 @@ footer {
   text-align: center;
   padding: 1em;
   font-size: 0.9em;
+}
+
+.wechat-entry {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #fffdf8;
+  border-top: 1px solid #f0e0d5;
+}
+.wechat-entry h3 {
+  margin-bottom: 0.5em;
+}
+.wechat-qr {
+  width: 180px;
+  margin: 1em auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
